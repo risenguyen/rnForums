@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "SF Pro", sans-serif;
+  src: url(./assets/SF-Pro.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+  --default-font-family: "SF Pro";
+  --color-error: #df4343;
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-150: var(--neutral-150);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-250: var(--neutral-250);
+  --color-neutral-300: var(--neutral-300);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-500: var(--neutral-500);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
+  --color-neutral-750: var(--neutral-750);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-850: var(--neutral-850);
+  --color-neutral-900: var(--neutral-900);
+}
+
+[data-theme="dark"] {
+  --neutral-100: #ededed;
+  --neutral-150: #e5e5e5;
+  --neutral-200: #e0e0e0;
+  --neutral-250: #d9d9d9;
+  --neutral-300: #c9c9c9;
+  --neutral-400: #b5b5b5;
+  --neutral-500: #808080;
+  --neutral-600: #4a4a4a;
+  --neutral-700: #363636;
+  --neutral-750: #262626;
+  --neutral-800: #1f1f1f;
+  --neutral-850: #1a1a1a;
+  --neutral-900: #121212;
+}
+
+[data-theme="light"] {
+  --neutral-100: #030303;
+  --neutral-150: #0d0d0d;
+  --neutral-200: #151515;
+  --neutral-250: #1c1c1c;
+  --neutral-300: #3d3d3d;
+  --neutral-400: #636363;
+  --neutral-500: #7f7f7f;
+  --neutral-600: #9c9c9c;
+  --neutral-700: #c2c2c2;
+  --neutral-750: #e3e3e3;
+  --neutral-800: #eaeaea;
+  --neutral-850: #f4f4f4;
+  --neutral-900: #fcfcfc;
+}
+
+.disable-transitions,
+.disable-transitions * {
+  transition: none !important;
+}
