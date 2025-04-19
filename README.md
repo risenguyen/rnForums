@@ -47,7 +47,7 @@ src/
 
 ## Project Demo
 
-Check out the project demo on YouTube: [rnForums Demo](https://www.youtube.com/watch?v=QOfLTJjUSyI)
+Check out the project demo on YouTube: [rnForums Demo](https://www.youtube.com/watch?v=jFwBziAd39w)
 
 ## Acknowledgments
 
