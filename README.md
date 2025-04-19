@@ -15,7 +15,7 @@ RN Forums is a modern, community-driven forum application built with React, Type
 ## Tech Stack
 
 - **Frontend**: React, TypeScript, Tailwind CSS
-- **State Management**: React Query
+- **State Management**: TanStack Query
 - **Routing**: TanStack Router
 - **Backend**: Supabase (Database and Authentication)
 - **Build Tool**: Vite
@@ -85,14 +85,6 @@ src/
 ├── main.tsx            # Application entry point
 ```
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
@@ -100,4 +92,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [Supabase](https://supabase.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TanStack Router](https://tanstack.com/router)
-- [React Query](https://tanstack.com/query)
+- [TanStack Query](https://tanstack.com/query)
