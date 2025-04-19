@@ -9,7 +9,7 @@ import { repliesQueryOptions } from "../../../features/replies/hooks/use-replies
 import CreateReplyForm from "../../../features/replies/components/create-reply-form";
 import RepliesList from "../../../features/replies/components/replies-list";
 import Loading from "../../../components/ui/loading";
-import { formatDate } from "../../../utils/formatDate";
+import { formatDate } from "../../../utils/format-date";
 
 export const Route = createFileRoute(
   "/(app)/app/forums_/$forumId_/threads_/$threadId",

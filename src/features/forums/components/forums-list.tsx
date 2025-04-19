@@ -4,7 +4,7 @@ import { Tables } from "../../../types/api";
 
 import { ChevronRight } from "lucide-react";
 import Card from "../../../components/ui/card";
-import { formatDate } from "../../../utils/formatDate";
+import { formatDate } from "../../../utils/format-date";
 
 function ForumsList() {
   const { forums } = useForums({

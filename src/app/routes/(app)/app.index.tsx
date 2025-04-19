@@ -4,7 +4,7 @@ import { useThreads } from "../../../features/threads/hooks/use-threads";
 
 import { Volleyball, MessageCircle } from "lucide-react";
 import ContentLayout from "../../../components/layouts/content-layout";
-import { formatDate } from "../../../utils/formatDate";
+import { formatDate } from "../../../utils/format-date";
 
 export const Route = createFileRoute("/(app)/app/")({
   component: ExploreComponent,

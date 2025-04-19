@@ -4,7 +4,7 @@ import { useIntersectionObserver } from "../../../hooks/use-intersection-observe
 
 import { MessageCircle } from "lucide-react";
 import Card from "../../../components/ui/card";
-import { formatDate } from "../../../utils/formatDate";
+import { formatDate } from "../../../utils/format-date";
 
 type ThreadsListProps = {
   forumId: number;

@@ -1,4 +1,4 @@
-import { formatDate } from "../../../utils/formatDate";
+import { formatDate } from "../../../utils/format-date";
 import { useReplies } from "../hooks/use-replies";
 
 type RepliesListProps = {
