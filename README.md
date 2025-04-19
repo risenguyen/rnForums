@@ -37,8 +37,6 @@ src/
 
 ## Project Architecture
 
-The project follows a modular architecture to ensure scalability and maintainability. Below is a visual representation of the architecture:
-
 ![Project Architecture](public/project-architecture.png)
 
 ### Key Modules
