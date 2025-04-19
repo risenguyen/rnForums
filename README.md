@@ -19,6 +19,22 @@ RN Forums is a modern, community-driven forum application built with React, Type
 - **Backend**: Supabase (Database and Authentication)
 - **Build Tool**: Vite
 
+## Folder Structure
+
+```
+src/
+├── app/                # Application entry and routing
+├── components/         # Reusable UI components
+├── context/            # Context providers for global state
+├── features/           # Feature-specific modules (auth, forums, threads, replies)
+├── hooks/              # Custom React hooks
+├── lib/                # Library utilities (e.g., API client)
+├── types/              # TypeScript type definitions
+├── utils/              # Utility functions
+├── index.css           # Global styles
+├── main.tsx            # Application entry point
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -67,22 +83,6 @@ RN Forums is a modern, community-driven forum application built with React, Type
 - `npm run build`: Build the application for production.
 - `npm run preview`: Preview the production build.
 - `npm run lint`: Run ESLint to check for code quality issues.
-
-## Folder Structure
-
-```
-src/
-├── app/                # Application entry and routing
-├── components/         # Reusable UI components
-├── context/            # Context providers for global state
-├── features/           # Feature-specific modules (auth, forums, threads, replies)
-├── hooks/              # Custom React hooks
-├── lib/                # Library utilities (e.g., API client)
-├── types/              # TypeScript type definitions
-├── utils/              # Utility functions
-├── index.css           # Global styles
-├── main.tsx            # Application entry point
-```
 
 ## Acknowledgments
 
