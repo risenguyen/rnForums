@@ -10,7 +10,6 @@ RN Forums is a modern, community-driven forum application built with React, Type
 - **Replies**: Engage in conversations by replying to threads.
 - **Pagination**: Infinite scrolling for threads.
 - **Theme Support**: Toggle between light and dark themes.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Tech Stack
 
