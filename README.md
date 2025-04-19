@@ -1,4 +1,4 @@
-# RN Forums
+# rnForums
 
 RN Forums is a modern, community-driven forum application built with React, TypeScript, and Vite. It provides a platform for users to connect, share, and engage in discussions on various topics.
 
@@ -44,6 +44,10 @@ src/
 - **Shared**: Contains reusable components, hooks, utilities, libraries, and type definitions.
 - **Features**: Encapsulates feature-specific logic and components, such as forums, threads, and replies.
 - **Application**: Manages the overall application structure and routing.
+
+## Project Demo
+
+Check out the project demo on YouTube: [rnForums Demo](https://www.youtube.com/watch?v=QOfLTJjUSyI)
 
 ## Acknowledgments
 
