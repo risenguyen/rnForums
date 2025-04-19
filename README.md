@@ -35,6 +35,18 @@ src/
 ├── main.tsx            # Application entry point
 ```
 
+## Project Architecture
+
+The project follows a modular architecture to ensure scalability and maintainability. Below is a visual representation of the architecture:
+
+![Project Architecture](public/project-architecture.png)
+
+### Key Modules
+
+- **Shared**: Contains reusable components, hooks, utilities, libraries, and type definitions.
+- **Features**: Encapsulates feature-specific logic and components, such as forums, threads, and replies.
+- **Application**: Manages the overall application structure and routing.
+
 ## Getting Started
 
 ### Prerequisites
