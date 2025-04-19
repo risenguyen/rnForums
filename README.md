@@ -32,7 +32,7 @@ RN Forums is a modern, community-driven forum application built with React, Type
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/risenguyen/rnForums
    cd rnForums
    ```
 
