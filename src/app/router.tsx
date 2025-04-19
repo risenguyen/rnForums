@@ -4,9 +4,6 @@ import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { useQueryClient } from "@tanstack/react-query";
 import { useAuth } from "../context/auth-context";
 
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-
 const router = createRouter({
   routeTree,
   defaultPreload: "intent",
@@ -37,8 +34,6 @@ function AppRouter() {
 
   return (
     <>
-      <TanStackRouterDevtools router={router} />
-      <ReactQueryDevtools />
       <RouterProvider
         context={{
           queryClient,
